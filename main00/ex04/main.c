@@ -14,6 +14,7 @@ int main()
   ft_putchar('-');
   ft_putchar('1');
   ft_is_negative(-1);
+  ft_putchar(10);
 
   return (0);
 }

@@ -10,5 +10,7 @@ int main() {
       i++;
     }
 
+    ft_putchar(10);
+
     return 0;
 }
