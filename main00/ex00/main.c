@@ -1,5 +1,3 @@
-void ft_putchar(char c);
-
 int main() {
     int i;
     i = 32;
@@ -9,8 +7,6 @@ int main() {
       ft_putchar(i);
       i++;
     }
-
-    ft_putchar(10);
 
     return 0;
 }

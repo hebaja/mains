@@ -1,24 +1,12 @@
-#include <unistd.h>
+#include <stdio.h>
 
 void ft_is_negative(int n);
 
-void ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
-
 int main()
 {
-  ft_putchar('0');
-  ft_is_negative(0);
-  ft_putchar(10);
-  ft_putchar('4');
-  ft_is_negative(4);
-  ft_putchar(10);
-  ft_putchar('-');
-  ft_putchar('1');
-  ft_is_negative(-1);
-  ft_putchar(10);
+	printf("0 -> %d\n", ft_is_negative(0));
+	printf("4 -> %d\n", ft_is_negative(4));
+	printf("-1 -> %d\n", ft_is_negative(-1));
 
-  return (0);
+  	return (0);
 }
