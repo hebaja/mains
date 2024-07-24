@@ -33,5 +33,21 @@ int main()
     result = ft_str_is_printable(str);
     printf("backspace -> %d\n", result);
 
+    str = "Oi\n. td bem?";
+    result = ft_str_is_printable(str);
+    printf("new line -> %d\n", result);
+
+    str = "td bem, ca\tra?"; 
+    result = ft_str_is_printable(str);
+    printf("tab -> %d\n", result);
+
+    str = "Eu es\rtou";
+    result = ft_str_is_printable(str);
+    printf("return -> %d\n", result);
+
+    str = "E vc? td be\01m?";
+    result = ft_str_is_printable(str);
+    printf("start heading -> %d\n", result);
+
     return (0);
 }
